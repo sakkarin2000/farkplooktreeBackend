@@ -1,0 +1,20 @@
+{
+  "name": "farkplooktreebackend",
+  "version": "1.0.0",
+  "description": "This is backend web api server for farkplooktree application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js -w src"
+  },
+  "keywords": [
+    "flutterApp",
+    "api"
+  ],
+  "author": "Sakkarin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
